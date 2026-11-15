@@ -1,5 +1,5 @@
 [project]
-name = "open-flow"
+name = "openflow"
 version = "0.1.0"
 description = "Offline push-to-talk voice dictation for macOS"
 requires-python = ">=3.11"
@@ -22,7 +22,7 @@ dependencies = [
 ]
 
 [project.scripts]
-open-flow = "open_flow.__main__:main"
+openflow = "open_flow.__main__:main"
 
 [build-system]
 requires = ["hatchling"]

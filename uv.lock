@@ -597,7 +597,7 @@ wheels = [
 ]
 
 [[package]]
-name = "open-flow"
+name = "openflow"
 version = "0.1.0"
 source = { editable = "." }
 dependencies = [
