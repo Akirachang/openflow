@@ -14,7 +14,7 @@ from typing import Callable
 # ── Update check ─────────────────────────────────────────────────────────────
 # Replace Akirachang with your GitHub username once the repo is public.
 _GITHUB_RELEASES_URL = (
-    "https://api.github.com/repos/Akirachang/open-flow/releases/latest"
+    "https://api.github.com/repos/Akirachang/openflow/releases/latest"
 )
 _CURRENT_VERSION = "0.1.0"
 
@@ -433,7 +433,7 @@ class OpenFlowApp(rumps.App):
                     lambda: rumps.notification(
                         title="Open Flow",
                         subtitle=f"Version {latest} is available",
-                        message="Visit github.com/Akirachang/open-flow/releases to update.",
+                        message="Visit github.com/Akirachang/openflow/releases to update.",
                     )
                 )
         except Exception:
